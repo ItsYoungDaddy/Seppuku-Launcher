@@ -1,9 +1,0 @@
-{
-  "Name": "Brightness",
-  "Color": "FFFFFFFF",
-  "Hidden": false,
-  "Keybind": "NONE",
-  "Enabled": false,
-  "Mode": "GAMMA",
-  "Effects": true
-}
