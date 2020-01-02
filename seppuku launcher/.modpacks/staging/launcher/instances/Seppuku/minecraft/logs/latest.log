@@ -1,0 +1,334 @@
+[11:57:29] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:57:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:57:29] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[11:57:29] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_231, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_231
+[11:57:29] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[11:57:29] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[11:57:29] [main/INFO] [FML]: Searching C:\Users\Jack\Desktop\seppuku launcher\seppuku launcher\.modpacks\staging\launcher\instances\Seppuku\minecraft\mods for mods
+[11:57:29] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from baritone-standalone-forge-1.2.10.jar
+[11:57:29] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[11:57:29] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in seppuku-3.0-full.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[11:57:29] [main/WARN] [FML]: The coremod SeppukuLoadingPlugin (me.rigamortis.seppuku.impl.fml.core.SeppukuLoadingPlugin) is not signed!
+[11:57:29] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SmoothFont-mc1.12.2-2.1.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[11:57:29] [main/WARN] [FML]: The coremod bre.smoothfont.asm.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[11:57:29] [main/WARN] [FML]: The coremod CorePlugin (bre.smoothfont.asm.CorePlugin) is not signed!
+[11:57:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:57:29] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[11:57:29] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/instances/Seppuku/minecraft/mods/baritone-standalone-forge-1.2.10.jar Service=LaunchWrapper Env=CLIENT
+[11:57:29] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[11:57:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:57:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:57:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:57:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:57:31] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[11:57:31] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[11:57:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:57:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:57:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:57:31] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[11:57:31] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[11:57:31] [main/ERROR] [mixin]: Mixin config mixins.baritone.json does not specify "minVersion" property
+[11:57:31] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@6de30571
+[11:57:31] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[11:57:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:57:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:57:31] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[11:57:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:57:31] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[11:57:31] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.move
+[11:57:31] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.swingArm
+[11:57:31] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.closeScreen
+[11:57:31] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.pushOutOfBlocks
+[11:57:31] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.onUpdate
+[11:57:31] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.sendChatMessage
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.onLivingUpdate
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.onUpdateWalkingPlayer
+[11:57:32] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer' was detected and will no longer process meta class data
+[11:57:32] [main/INFO] [BetterFps]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[11:57:32] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
+[11:57:32] [main/WARN] [mixin]: @Mixin target net.minecraft.block.state.BlockStateContainer$StateImplementation is public in mixins.baritone.json:MixinStateImplementation and should be specified in value
+[11:57:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/world/World.checkLightFor
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/world/World.onEntityAdded
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/world/World.getRainStrength
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/world/World.onEntityRemoved
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/gui/GuiScreen.renderToolTip
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/Minecraft.runTick
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/Minecraft.runTickKeyboard
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/Minecraft.loadWorld
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/Minecraft.displayGuiScreen
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/Minecraft.updateFramebufferSize
+[11:57:32] [main/INFO] [BetterFps]: Patching net.minecraft.client.Minecraft... (bib)
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraftforge/client/GuiIngameForge.renderHelmet
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraftforge/client/GuiIngameForge.renderPortal
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraftforge/client/GuiIngameForge.renderPotionIcons
+[11:57:32] [main/INFO] [SmoothFontCore ASM]: Transform: net.minecraftforge.client.GuiIngameForge
+[11:57:32] [main/INFO] [SmoothFontCore ASM]: RENDER_EXPERIENCE:true
+[11:57:32] [main/INFO] [SmoothFontCore ASM]: ** GuiIngameForge was transformed successfully.
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.move
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.swingArm
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.closeScreen
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.pushOutOfBlocks
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.onUpdate
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.sendChatMessage
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.onLivingUpdate
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/EntityPlayerSP.onUpdateWalkingPlayer
+[11:57:32] [main/INFO] [BetterFps]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/entity/AbstractClientPlayer.getLocationCape
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/entity/player/EntityPlayer.isPushedByWater
+[11:57:32] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/entity/player/EntityPlayer.applyEntityCollision
+[11:57:33] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/entity/passive/AbstractHorse.canBeSteered
+[11:57:33] [main/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/entity/passive/AbstractHorse.isHorseSaddled
+[11:57:33] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player
+[11:57:33] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/Block.addCollisionBoxToList
+[11:57:33] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/Block.shouldSideBeRendered
+[11:57:33] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[11:57:33] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/BlockLiquid.canCollideCheck
+[11:57:33] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/BlockLiquid.getCollisionBoundingBox
+[11:57:33] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/BlockLiquid.shouldSideBeRendered
+[11:57:33] [Client thread/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[11:57:33] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/BlockStairs.addCollisionBoxToList
+[11:57:34] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/BlockFence.addCollisionBoxToList
+[11:57:34] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/BlockSoulSand.onEntityCollidedWithBlock
+[11:57:34] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/BlockPane.addCollisionBoxToList
+[11:57:34] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[11:57:34] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
+[11:57:34] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[11:57:34] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/BlockSlime.onLanded
+[11:57:34] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/block/BlockSlime.onEntityWalk
+[11:57:35] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/entity/passive/EntityPig.travel
+[11:57:35] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/entity/passive/EntityPig.canBeSteered
+[11:57:35] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/entity/passive/EntityLlama.canBeSteered
+[11:57:35] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/settings/KeyBinding.isKeyDown
+[11:57:35] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[11:57:35] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[11:57:36] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2 path $
+[11:57:36] [Client thread/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.renderer.GlStateManager
+[11:57:36] [Client thread/INFO] [SmoothFontCore ASM]: GET_BLEND_STATE:true
+[11:57:36] [Client thread/INFO] [SmoothFontCore ASM]: GET_BLEND_SRC_FACTOR:true
+[11:57:36] [Client thread/INFO] [SmoothFontCore ASM]: GET_BLEND_DST_FACTOR:true
+[11:57:36] [Client thread/INFO] [SmoothFontCore ASM]: ** GlStateManager was transformed successfully.
+[11:57:36] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_231, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 839770504 bytes (800 MB) / 1013448704 bytes (966 MB) up to 1013448704 bytes (966 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms1024M -Xmx1024M -XX:MaxPermSize=128M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+SeppukuLoadingPlugin (seppuku-3.0-full.jar)
+  me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer
+CorePlugin (SmoothFont-mc1.12.2-2.1.1.jar)
+  bre.smoothfont.asm.Transformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 441.41' Renderer: 'GeForce GTX 1660/PCIe/SSE2'
+[11:57:36] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[11:57:36] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.gui.FontRenderer
+[11:57:37] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: INIT:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: READ_FONT_TEXTURE:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: READ_GLYPH_SIZES:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: RENDER_CHAR:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: RENDER_DEFAULT_CHAR:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: RENDER_UNICODE_CHAR:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: DRAW_STRING:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: RENDER_STRING_AT_POS:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: DO_DRAW:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: RENDER_STRING_ALIGNED:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: RENDER_STRING:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: GET_STRING_WIDTH:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: GET_CHAR_WIDTH:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: TRIM_STRING_TO_WIDTH:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: SET_UNICODE_FLAG:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: SIZE_STRING_TO_WIDTH:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: BIND_TEXTURE:true
+[11:57:37] [Thread-3/INFO] [SmoothFontCore ASM]: ** FontRenderer was transformed successfully.
+[11:57:37] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[11:57:37] [Client thread/INFO] [FML]: Searching C:\Users\Jack\Desktop\seppuku launcher\seppuku launcher\.modpacks\staging\launcher\instances\Seppuku\minecraft\mods for mods
+[11:57:38] [Client thread/WARN] [FML]: Mod smoothfont is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.12.2-2.1.1
+[11:57:38] [Client thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[11:57:38] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, smoothfontcore, seppukumod, smoothfont] at CLIENT
+[11:57:38] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, smoothfontcore, seppukumod, smoothfont] at SERVER
+[11:57:38] [Client thread/ERROR] [FML]: The mod seppukumod is expecting signature 7979b1d0446af2675fcb5e888851a7f32637fdb9 for source seppuku-3.0-full.jar, however there is no signature matching that description
+[11:57:38] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: BetterFps, Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Seppuku, FMLFileResourcePack:Smooth Font
+[11:57:38] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/RenderGlobal.renderSky
+[11:57:38] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/RenderGlobal.drawBlockDamageTexture
+[11:57:38] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/RenderGlobal.isRenderEntityOutlines
+[11:57:38] [Client thread/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.renderer.texture.TextureManager
+[11:57:38] [Client thread/INFO] [SmoothFontCore ASM]: LOAD_TEXTURE:true
+[11:57:38] [Client thread/INFO] [SmoothFontCore ASM]: ** TextureManager was transformed successfully.
+[11:57:38] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/EntityRenderer.getFOVModifier
+[11:57:38] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/EntityRenderer.hurtCameraEffect
+[11:57:38] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/EntityRenderer.orientCamera
+[11:57:38] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/EntityRenderer.renderWorldPass
+[11:57:38] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/EntityRenderer.updateCameraAndRender
+[11:57:38] [Client thread/INFO] [BetterFps]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[11:57:38] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[11:57:38] [Client thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[11:57:38] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[11:57:38] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[11:57:38] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/world/chunk/Chunk.onUnload
+[11:57:38] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[11:57:38] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[11:57:38] [Client thread/INFO] [smoothfont]: Force registration of per-user installed fonts in Windows 10.
+[11:57:38] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[11:57:39] [Client thread/INFO] [smoothfont]:   Found 2 new font(s).
+[11:57:39] [Client thread/INFO] [smoothfont]: Search font files in "fontfiles" folder.
+[11:57:39] [Client thread/WARN] [smoothfont]: Fonts folder "fontfiles" does not exist.
+[11:57:39] [Client thread/INFO] [FML]: Applying holder lookups
+[11:57:39] [Client thread/INFO] [FML]: Holder lookups applied
+[11:57:39] [Client thread/INFO] [FML]: Applying holder lookups
+[11:57:39] [Client thread/INFO] [FML]: Holder lookups applied
+[11:57:39] [Client thread/INFO] [FML]: Applying holder lookups
+[11:57:39] [Client thread/INFO] [FML]: Holder lookups applied
+[11:57:39] [Client thread/INFO] [FML]: Applying holder lookups
+[11:57:39] [Client thread/INFO] [FML]: Holder lookups applied
+[11:57:39] [Client thread/INFO] [FML]: Injecting itemstacks
+[11:57:39] [Client thread/INFO] [FML]: Itemstack injection complete
+[11:57:39] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 664859700 nanos
+[11:57:44] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[11:57:44] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[11:57:44] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:57:44] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[11:57:45] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[11:57:47] [Client thread/INFO] [FML]: Max texture size: 16384
+[11:57:49] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[11:57:50] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/entity/RenderManager.renderEntity
+[11:57:50] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/entity/RenderLivingBase.renderName
+[11:57:50] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/ItemRenderer.renderSuffocationOverlay
+[11:57:50] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/ItemRenderer.renderWaterOverlayTexture
+[11:57:50] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/ItemRenderer.renderFireInFirstPerson
+[11:57:50] [Thread-3/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.gui.ScaledResolution
+[11:57:50] [Thread-3/INFO] [SmoothFontCore ASM]: INIT:true
+[11:57:50] [Thread-3/INFO] [SmoothFontCore ASM]: ** ScaledResolution was transformed successfully.
+[11:57:50] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/BlockModelRenderer.renderModel
+[11:57:50] [Client thread/INFO] [SmoothFontCore ASM]: Transform: net.minecraft.client.renderer.GlStateManager
+[11:57:50] [Client thread/INFO] [SmoothFontCore ASM]: GET_BLEND_STATE:true
+[11:57:50] [Client thread/INFO] [SmoothFontCore ASM]: GET_BLEND_SRC_FACTOR:true
+[11:57:50] [Client thread/INFO] [SmoothFontCore ASM]: GET_BLEND_DST_FACTOR:true
+[11:57:50] [Client thread/INFO] [SmoothFontCore ASM]: ** GlStateManager was transformed successfully.
+[11:57:50] [Client thread/INFO] [FML]: Applying holder lookups
+[11:57:50] [Client thread/INFO] [FML]: Holder lookups applied
+[11:57:54] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.management.ModuleManager:loadExternalModules:193]: [Seppuku] Found external module Tab Gui
+[11:57:54] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.management.ModuleManager:loadExternalModules:193]: [Seppuku] Found external module Click Gui
+[11:57:54] [Client thread/INFO] [FML]: Injecting itemstacks
+[11:57:54] [Client thread/INFO] [FML]: Itemstack injection complete
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: java.lang.RuntimeException: No OpenGL context found in the current thread.
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at org.lwjgl.opengl.GL11.glPushMatrix(GL11.java:2592)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at net.minecraft.client.renderer.GlStateManager.func_179094_E(SourceFile:621)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.kix.betteruis.util.NahrFont.setupGraphics2D(NahrFont.java:57)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.kix.betteruis.util.NahrFont.<init>(NahrFont.java:52)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.kix.betteruis.util.NahrFont.<init>(NahrFont.java:42)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.kix.betteruis.click.theme.SeppukuTheme.<init>(SeppukuTheme.java:25)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.kix.betteruis.click.handler.GuiClick.<init>(GuiClick.java:44)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.kix.betteruis.click.handler.GuiClick.getInstance(GuiClick.java:148)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.kix.betteruis.click.ClickGuiModule.onEnable(ClickGuiModule.java:25)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.rigamortis.seppuku.api.module.Module.toggle(Module.java:69)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.rigamortis.seppuku.impl.config.ModuleConfig.lambda$onLoad$0(ModuleConfig.java:42)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.lang.Iterable.forEach(Unknown Source)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.rigamortis.seppuku.impl.config.ModuleConfig.onLoad(ModuleConfig.java:27)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at me.rigamortis.seppuku.impl.management.ConfigManager.lambda$loadAll$4(ConfigManager.java:84)
+[11:57:54] [Thread-8/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.lang.Thread.run(Unknown Source)
+[11:57:54] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
+[11:57:54] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[11:57:54] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/gui/GuiBossOverlay.renderBossHealth
+[11:57:54] [Client thread/WARN] [com.mojang.text2speech.NarratorWindows]: ERROR : Couldn't load Narrator library : Unable to load library 'SAPIWrapper_x64': Native library (win32-x86-64/SAPIWrapper_x64.dll) not found in resource path ([file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/mojang/patchy/1.1/patchy-1.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/google/guava/guava/21.0/guava-21.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/mojang/realms/1.10.19/realms-1.10.19.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/versions/1.12.2/1.12.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/instances/Seppuku/minecraft/mods/baritone-standalone-forge-1.2.10.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/instances/Seppuku/minecraft/mods/BetterFps-1.4.8.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/instances/Seppuku/minecraft/mods/seppuku-3.0-full.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/instances/Seppuku/minecraft/mods/SmoothFont-mc1.12.2-2.1.1.jar, asmgen:/])
+ERROR : Couldn't load Narrator library : Unable to load library 'SAPIWrapper_x86': Native library (win32-x86-64/SAPIWrapper_x86.dll) not found in resource path ([file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/mojang/patchy/1.1/patchy-1.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/google/guava/guava/21.0/guava-21.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/mojang/realms/1.10.19/realms-1.10.19.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/versions/1.12.2/1.12.2.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/instances/Seppuku/minecraft/mods/baritone-standalone-forge-1.2.10.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/instances/Seppuku/minecraft/mods/BetterFps-1.4.8.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/instances/Seppuku/minecraft/mods/seppuku-3.0-full.jar, file:/C:/Users/Jack/Desktop/seppuku%20launcher/seppuku%20launcher/.modpacks/staging/launcher/instances/Seppuku/minecraft/mods/SmoothFont-mc1.12.2-2.1.1.jar, asmgen:/])
+
+[11:57:54] [Client thread/INFO] [BetterFps]: Patching net.minecraft.client.gui.GuiOptions... (ble)
+[11:57:55] [Client thread/INFO] [STDOUT]: [baritone.dt:a:-1]: Baritone settings file not found, resetting.
+[11:57:55] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[11:58:08] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[11:58:08] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[11:58:08] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[11:58:08] [Server thread/INFO] [FML]: Applying holder lookups
+[11:58:08] [Server thread/INFO] [FML]: Holder lookups applied
+[11:58:09] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@1c1a17c7)
+[11:58:09] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[11:58:09] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@1c1a17c7)
+[11:58:09] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@1c1a17c7)
+[11:58:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[11:58:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 93%
+[11:58:10] [Server thread/INFO] [FML]: Unloading dimension -1
+[11:58:10] [Server thread/INFO] [FML]: Unloading dimension 1
+[11:58:10] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[11:58:10] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/network/NetworkManager.channelRead0
+[11:58:10] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/network/NetworkManager.sendPacket
+[11:58:11] [Netty Local Client IO #0/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/network/NetHandlerPlayClient.handleChunkData
+[11:58:11] [Netty Local Client IO #0/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/gui/GuiScreenBook.keyTypedInTitle
+[11:58:11] [Netty Local Client IO #0/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/gui/GuiScreenBook.pageInsertIntoCurrent
+[11:58:11] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[11:58:11] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[11:58:11] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2847,seppukumod@3.0,mcp@9.42,smoothfontcore@mc1.12.2-2.1.1,smoothfont@mc1.12.2-2.1.1
+[11:58:11] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[11:58:11] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[11:58:11] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player[local:E:2dcbfb1e] logged in with entity id 283 at (182.66363295208188, 76.10351920378845, 257.69999998807907)
+[11:58:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player joined the game
+[11:58:11] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/multiplayer/PlayerControllerMP.clickBlock
+[11:58:11] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/multiplayer/PlayerControllerMP.isHittingPosition
+[11:58:11] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/multiplayer/PlayerControllerMP.resetBlockRemoving
+[11:58:11] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/multiplayer/PlayerControllerMP.processRightClickBlock
+[11:58:11] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/multiplayer/PlayerControllerMP.onPlayerDestroyBlock
+[11:58:11] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/multiplayer/PlayerControllerMP.onPlayerDamageBlock
+[11:58:11] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/multiplayer/PlayerControllerMP.processRightClick
+[11:58:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[11:58:12] [Client thread/INFO] [STDOUT]: [baritone.eu:a:-1]: Baritone world data dir: C:\Users\Jack\Desktop\seppuku launcher\seppuku launcher\.modpacks\staging\launcher\instances\Seppuku\minecraft\saves\New World\baritone\DIM0
+[11:58:12] [Client thread/INFO] [STDOUT]: [baritone.em:<init>:-1]: Cached world directory: C:\Users\Jack\Desktop\seppuku launcher\seppuku launcher\.modpacks\staging\launcher\instances\Seppuku\minecraft\saves\New World\baritone\DIM0\cache
+[11:58:12] [Client thread/INFO] [STDOUT]: [baritone.es:<init>:-1]: Would save waypoints to C:\Users\Jack\Desktop\seppuku launcher\seppuku launcher\.modpacks\staging\launcher\instances\Seppuku\minecraft\saves\New World\baritone\DIM0\waypoints
+[11:58:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:58:12] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/ActiveRenderInfo.updateRenderInfo
+[11:58:12] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/client/renderer/chunk/VisGraph.setOpaqueCube
+[11:58:13] [pool-5-thread-1/INFO] [STDOUT]: [baritone.el:b:-1]: Loading region 0,0 from disk C:\Users\Jack\Desktop\seppuku launcher\seppuku launcher\.modpacks\staging\launcher\instances\Seppuku\minecraft\saves\New World\baritone\DIM0\cache
+[11:58:13] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/world/biome/BiomeColorHelper.getGrassColorAtPos
+[11:58:13] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/world/biome/BiomeColorHelper.getFoliageColorAtPos
+[11:58:13] [Client thread/INFO] [STDOUT]: [me.rigamortis.seppuku.impl.fml.core.SeppukuClassTransformer:transform:132]: [Seppuku] Patched net/minecraft/world/biome/BiomeColorHelper.getWaterColorAtPos
+[11:58:13] [pool-5-thread-1/INFO] [STDOUT]: [baritone.el:b:-1]: Loaded region successfully in 261ms
+[11:58:14] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@6e5a90cc[id=00000000-0000-0000-0000-000000000000,name=Player,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.func_181037_M(Minecraft.java:3001) [bib.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SourceFile:110) [cex$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_231]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_231]
+[11:58:17] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[11:58:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:58:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[11:58:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:58:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[11:58:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[11:58:37] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player lost connection: Disconnected
+[11:58:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player left the game
+[11:58:37] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[11:58:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[11:58:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:58:37] [Server thread/INFO] [FML]: Unloading dimension 0
+[11:58:37] [Server thread/INFO] [FML]: Applying holder lookups
+[11:58:37] [Server thread/INFO] [FML]: Holder lookups applied
+[11:58:38] [pool-5-thread-3/INFO] [STDOUT]: [baritone.et:c:-1]: Started saving the world in a new thread
+[11:58:38] [pool-5-thread-4/INFO] [STDOUT]: [baritone.et:b:-1]: Started saving saved containers in a new thread
+[11:58:38] [pool-5-thread-3/INFO] [STDOUT]: [baritone.el:a:-1]: Saving region 0,0 to disk C:\Users\Jack\Desktop\seppuku launcher\seppuku launcher\.modpacks\staging\launcher\instances\Seppuku\minecraft\saves\New World\baritone\DIM0\cache
+[11:58:38] [pool-5-thread-3/INFO] [STDOUT]: [baritone.el:a:-1]: Saved region successfully
+[11:58:38] [pool-5-thread-3/INFO] [STDOUT]: [baritone.em:b:-1]: World save took 199ms
+[11:58:42] [pool-5-thread-2/INFO] [STDOUT]: [baritone.em:b:-1]: World save took 0ms
+[11:58:46] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[11:58:46] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[11:58:46] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
