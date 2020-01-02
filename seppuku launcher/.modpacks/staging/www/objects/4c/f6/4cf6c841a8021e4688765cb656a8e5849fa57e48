@@ -1,8 +1,0 @@
-{
-  "Name": "Reconnect",
-  "Color": "FFFFFFFF",
-  "Hidden": false,
-  "Keybind": "NONE",
-  "Enabled": false,
-  "Delay": 3000.0
-}
